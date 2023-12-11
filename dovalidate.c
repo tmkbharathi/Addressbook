@@ -26,7 +26,7 @@ Status validate(char* fname){
 }
 
 Status addressmenu(char *fname){
-	char option;
+	char option='y';
 	do
 	{
 		printf("Menu :\n\t0. Exit\n\t1. Add Contact\n\t2. Search Contact\n\t3. Edit Contact\n\t4. Delete Contact\n\t5. List Contacts\n");

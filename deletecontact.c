@@ -28,7 +28,6 @@ Status deletecontact(char * fname)
     scanf("%d", &option);
 
 	int count = 0, keepCount = 0;
-	char res;
 	switch(option)
 	{
 		case 0:
